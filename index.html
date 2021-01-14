@@ -1,111 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Welcome</title>
-    <link rel="stylesheet" href="style//stol.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AHMAD FAISHOL FAWWAS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="search-box">
-        <input type="text" placeholder="Search here..." />
+
+    <!-- sidebar -->
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
 
-    <div class="nav-container">
-        <div class="wrapper">
-            <nav>
-                <div class="logo">
-                    LK
-                </div>
+    <!-- bagian header -->
+    <header>
+        <div class="container">
+            <h1><a href="">ahmad faishol fawwas</a></h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-                <ul class="nav-items">
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-
-                    <li>
-                        <a href="#">contact</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Wisata</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-btn-container" href="#">
-                            <img class="search-btn" src="gambar//search_icon.svg" alt="" />
-                            <img class="close-btn" src="gambar//close_icon.svg" alt="" />
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <!-- menu mobile -->
+            <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
         </div>
-    </div>
+    </header>
 
-    <div class="header-container">
-        <div class="wrapper">
-            <header>
-                <div class="hero-content">
-                    <h1>Liburan kuy!!</h1>
-                    <h2>Daripada gabut liburan kuy!!</h2>
-                    <p>
-                        Selamat datang di website LiburanKuy,disini kalian bisa mengeksplor tempat-tempat wisata yang ada di Indonesia
-                    </p>
-                    <a href="#">
-              Contact Me
-            </a>
-                </div>
+    <!-- bagian banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-left">
+                <img src="img/dzul2.png">
+                <h2>Hai...<br> Saya adalah seorang HACKER <span class="efek-ngetik"></span></h2>
+                <p>Selamat datang di simple website</p>
+            </div>
+        </div>
+    </section>
 
-                <div class="hero-image">
-                    <img src="gambar//liburan.png" alt="" />
-                </div>
-            </header>
-            <div class="social-icons">
-                <a href="#">
-                    <img src="gambar//facebook.png" alt="" />
+    <!-- bagian about -->
+    <section id="about">
+        <div class="container">
+            <h3>About</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, </p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, </p>
+        </div>
+    </section>
+
+    <!-- bagian skills -->
+    <section id="skills">
+        <div class="container">
+            <h3>Skills</h3>
+            <h4>HTML</h4>
+            <div class="bar">
+                <span class="nilai html">100%</span>
+            </div>
+
+            <h4>CSS</h4>
+            <div class="bar">
+                <span class="nilai css">90%</span>
+            </div>
+
+            <h4>Javascript</h4>
+            <div class="bar">
+                <span class="nilai js">80%</span>
+            </div>
+
+            <h4>PHP</h4>
+            <div class="bar">
+                <span class="nilai php">95%</span>
+            </div>
+
+            <h4>Photoshop</h4>
+            <div class="bar">
+                <span class="nilai ps">85%</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bagian portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h3>Portfolio</h3>
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 1</span>
                 </a>
-                <a href="#">
-                    <img src="gambar//insta.png" alt="" />
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 2</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 3</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 4</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 1</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 2</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 3</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="">
+                    <img src="img/laptop.jpg">
+                    <span>Portfolio 4</span>
                 </a>
             </div>
         </div>
-        <div class="hero-content2">
-            <img src="gambar//gunung1.png" alt="">
-            <h1>Welcome To Indonesia</h1>
+    </section>
+
+    <!-- bagian contact -->
+    <section id="contact">
+        <div class="container">
+            <h3>Contact</h3>
+            <div class="col-3">
+                <h4>Alamat</h4>
+                <p>Jl. king royal , surabaya</p>
+            </div>
+
+            <div class="col-3">
+                <h4>Email</h4>
+                <p>ahmadffawwas@gmail.com</p>
+            </div>
+
+            <div class="col-3">
+                <h4>Telp/Hp</h4>
+                <p>+62 878 4102 4446</p>
+            </div>
         </div>
-        <div class="hero-gambar">
-            <a href="#">
-                <img src="gambar//papuma.png" alt="">
-                <p>Pantai Papuma (Jember)</p>
-            </a>
-            <a href="#">
-                <img src="gambar//tancak.png" alt="">
-                <p>Air Terjun Tancak (Jember)</p>
-            </a>
-            <a href="#">
-                <img src="gambar//paduman.png" alt="">
-                <p>Desa Panduman (Jember)</p>
-            </a>
+    </section>
+
+    <!-- bagian footer -->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2020 - ahmadffawwas.</small>
         </div>
-        <div class="hero-gambar" id="hero-gambar-1">
-            <a href="#">
-                <img src="gambar//kawahijen.png" alt="">
-                <p>Kawah Ijen (Banyuwangi)</p>
-            </a>
-            <a href="#">
-                <img src="gambar//sj88.png" alt="">
-                <p>SJ 88 (Jember)</p>
-            </a>
-            <a href="#">
-                <img src="gambar//pulaumerah.png" alt="">
-                <p>Pulau Merah (Banyuwangi)</p>
-            </a>
-        </div>
-    </div>
-    <script src="script//main.js"></script>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
